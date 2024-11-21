@@ -64,7 +64,7 @@ a {
 
 .nav-bar {
   margin-bottom: 9.25rem;
-  
+
   @include phone-screen {
     margin-bottom: 5rem;
   }
@@ -162,7 +162,7 @@ a {
 
   @include desktop-screen {
     padding-top: 5.5rem;
-    padding-bottom: 5rem;;
+    padding-bottom: 5rem;
   }
 }
 
@@ -198,7 +198,7 @@ a {
     }
 
     @include desktop-screen {
-      margin-bottom: 1.5rem
+      margin-bottom: 1.5rem;
     }
   }
 
