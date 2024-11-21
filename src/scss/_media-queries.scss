@@ -3,13 +3,13 @@
 }
 
 @mixin tablet-screen {
-    @media (min-width:481) and (max-width: 768px) { @content; }
+    @media (min-width:480.1px) and (max-width: 768px) { @content; }
 }
 
 @mixin tablet-screen-brpt { 
-    @media (min-width:481) and (max-width: 591px) { @content; }
+    @media (min-width:480.1px) and (max-width: 591px) { @content; }
 }
 
 @mixin desktop-screen {
-    @media (min-width:769) and (max-width: 1024px) { @content; }
+    @media (min-width:768.1px) and (max-width: 1024px) { @content; }
 }
